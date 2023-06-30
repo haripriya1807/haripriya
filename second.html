@@ -1,0 +1,95 @@
+<html>
+<h1><span>True Random Number Service</span></h1>
+  <noscript><p style="background-color:#ffff90;padding: 0em .5em 0em .5em;font-size:.9em"><strong>Warning:</strong> Your browser does not support JavaScript &#8211; RANDOM.ORG may not work as expected</p></noscript>
+  <p style="background-color:#ffff90;padding: 0em .5em 0em .5em"><strong>Advisory:</strong> We only operate services from the RANDOM.ORG domain. Other sites that claim to be operated by us are impostors. If in doubt, <a href='mailto:contact@random.org'>contact us</a>.</p>
+
+<style>  .btn { display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+ .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+ }
+ .btn-primary {
+   color:#ffffff;background-color: #428bca;border-color: #357ebd;
+   }
+.btn-xs,
+.btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+  </style>
+<div id="cookie-banner" style="width:100%;position:absolute;top:0;right:0;z-index:10000;border-bottom:1px solid #bce8f1;background-color:#d9edf7;display:none;">
+        <div style="margin: 0px 16px 16px 16px">
+          <p>
+            <strong>RANDOM.ORG Uses Cookies</strong>
+          </p>
+          <p>
+            We use cookies to remember your preferences and to analyze our traffic. We do not carry ads and will never sell your data to third parties.
+          </p>
+          <p>
+            <label class="checkbox-inline"><input type="checkbox" disabled="disabled" class="rdo-input rdo-input-disabled-onload" id="cookie-banner-necessary" value="1" checked="checked">Necessary</input></label>
+            <label class="checkbox-inline"><input type="checkbox" disabled="disabled" class="rdo-input" id="cookie-banner-preferences" value="1">Preferences</input></label>
+            <label class="checkbox-inline"><input type="checkbox" disabled="disabled" class="rdo-input" id="cookie-banner-statistics" value="1">Statistics</input></label>
+          </p>
+          <p style="margin-top:-.3em;margin-bottom:1em;">
+            Please see our <a href="https://www.random.org/terms/2020-08-01/cookies">Cookie Policy</a> or visit our <a href="https://www.random.org/privacy">Privacy Dashboard</a> for more information.
+          </p>
+          <span style="white-space:nowrap;">
+            <button class="btn btn-default btn-xs rdo-input" disabled="disabled" onclick="cookieBanner('selected');">Allow Selected</button>
+            <button class="btn btn-default btn-xs rdo-input" disabled="disabled" onclick="cookieBanner('all');">Allow All</button>
+          </span>
+        </div>
+      </div>
+      
+
+  <h2>Random String Generator</h2>
+
+
+
+  <p>This form allows you to generate random text strings.  The
+  randomness comes from atmospheric noise, which for many purposes
+  is better than the pseudo-random number algorithms typically
+  used in computer programs.</p>
+
+  <form method="get" action="">
+
+  <h3>Part 1: The Strings</h3>
+
+  <p>Generate <input type="text" name="num" value="10" size="6" maxlength="12" /> random strings (maximum <abbr title="Buy a Plus Subscription and raise this to 50,000.">10,000</abbr>).</p>
+
+  <p>Each string should be <input type="text" name="len" value="10" size="6" maxlength="12" /> characters long (maximum <abbr title="Buy a Plus Subscription and raise this to 50.">20</abbr>).</p>
+
+  <p>Which characters are allowed to occur in the strings?<br />
+  <label><input class="indented" type="checkbox" name="digits" checked="checked" /> Numeric digits (0-9)</label><br />
+  <label><input class="indented" type="checkbox" name="upperalpha" /> Uppercase letters (A-Z)</label><br />
+  <label><input class="indented" type="checkbox" name="loweralpha" /> Lowercase letters (a-z)</label></p>
+
+  <p>Do you want each string to be unique?<br />
+  <label><input class="indented" type="radio" name="unique" value="on" checked="checked" /> Each string should be unique (like raffle tickets)</label><br />
+  <label><input class="indented" type="radio" name="unique" value="off" /> Identical strings are allowed (like dice rolls)</label></p>
+
+  <input type="hidden" name="format" value="html" />
+  <input type="hidden" name="rnd" value="new" />
+
+  </form>
+</html>
