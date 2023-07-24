@@ -1,6 +1,8 @@
 const validateUsername = (username) => {
     const numberPattern = /\d/;
     return !numberPattern.test(username);
+    console;
+
   };
 
 // const form = document.querySelector('#form')

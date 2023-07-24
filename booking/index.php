@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,7 +11,7 @@
   <body>
     <div class="container">
       <h1 class="form-title">Booking Details</Details></h1>
-      <from action="" method="POST" id="form" autocomplete="off">
+      <form action="insert.php" method="POST" id="form" autocomplete="off">
         <div class="booking-details">
           <div class="user-input-box">
             <label for="fullName">First Name</label>
@@ -45,9 +47,9 @@
         <div class="gender-details">
           <span class="gender">Gender</span>
           <div class="gender-category">
-            <input type="radio" name="gender" value="m" id="male">
+            <input type="radio" name="gender" value="male" id="male">
             <label for="male">Male</label>
-            <input type="radio" name="gender" value="f" id="female">
+            <input type="radio" name="gender" value="female" id="female">
             <label for="female">Female</label>
           </div>
         </div>
