@@ -18,7 +18,7 @@
             <input type="text" id="fullName" name="firstName" placeholder="Enter Full Name"/>
           </div>
           <div class="user-input-box">
-            <label for="dateadd">Date</label>
+            <label for="dateadd">Event Date</label>
             <input type="date" id="dateadd" name="dateadd">
           </div>
           <div class="user-input-box">
@@ -34,7 +34,7 @@
             <textarea id="address" name="address" placeholder="Enter Your Address"></textarea>
           </div>
           <div class="user-input-box">
-            <label for="selectField">Select</label>
+            <label for="selectField">Select Your Choice</label>
              <select name="selectField" id="selectField">
               <option value="" style="color: grey;">Select an option</option>
               <option value="Nature Photography">Nature Photography</option>
