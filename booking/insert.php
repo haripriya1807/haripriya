@@ -1,9 +1,6 @@
 <?php
 
     include"connection.php";
-    //  var_dump($_POST);
-    // exit; 
-    // if($_POST) { 
     
 $firstName = $_POST["firstName"];
 $dateadd = $_POST["dateadd"];
@@ -22,19 +19,12 @@ if($query){
     $return['status'] = 'success';
     $return['message'] = 'Data inserted successfully';
     header('location:index.php');
-   
 }
-//
-//  if(!$query) {
-//    die(mysqli_error($conn));
-//  }
-
-//   echo json_encode($data);
-    // return json_encode($data);
-
-// }
-// else {
-    //     header('location:index.php');
-    // }
+else {
+    $return['status'] = 'error';
+    $return['message'] = 'Data insertion failed';
+}
 ?>
+
+
 

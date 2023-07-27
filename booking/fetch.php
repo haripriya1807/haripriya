@@ -1,9 +1,9 @@
 <?php
-//  include("connection.php");
+
 require_once('connection.php');
  $query="select * from photo_form";
  $result = mysqli_query($conn,$query);
-//  $sendData = [];
+
  
 ?>
 <!DOCTYPE html>
