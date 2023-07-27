@@ -3207,10 +3207,6 @@ figcaption {
   grid-template-columns: 2fr 1fr;
   grid-template-areas: ". .";
 }
-.section_about:hover{
-  
-}
-
 .intro-text {
   width: 80%;
   margin-bottom: 35px;
