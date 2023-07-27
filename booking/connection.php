@@ -14,7 +14,6 @@
     echo "Connected successfully";
   }
 ?>
-?>
 <!-- <?php
 
 //$servername = "localhost";
