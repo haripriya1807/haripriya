@@ -12,7 +12,7 @@
     <button type="button" class="button"><span class="text">>> &nbsp  </span><a href="fetch.php">ADMIN</a></button>
     </div>
     <div class="container">
-      <h1 class="form-title">Booking Details</Details></h1>
+      <h1 class="form-title">Booking Details</h1>
       <form action="insert.php" method="POST" id="form" autocomplete="off" onsubmit="return validateForm()">
         <div class="booking-details">
           <div class="user-input-box">
