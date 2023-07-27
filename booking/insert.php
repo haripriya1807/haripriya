@@ -21,6 +21,7 @@ if($query){
     header('location:index.php');
 }
 else {
+   
     $return['status'] = 'error';
     $return['message'] = 'Data insertion failed';
 }
