@@ -19,9 +19,7 @@ public class Main {
 
         return uniqueArr;
 
-good evening sir 
- solve the probelm,and working on project.
-git uploaded. 
+
     }
 
     public static void main(String[] args) {
