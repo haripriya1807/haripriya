@@ -1,0 +1,51 @@
+sHashMap
+
+syntax:>  HashMap<String,Integer> obj=new HashMap<>();
+Single null keys and multiple null values.
+it assigned to <Key, Value>.
+operataions:> get(),put()
+It doesn't maintain order.
+
+import java.util.*;
+public class Main{
+     public static void main(String[]args)
+     {
+         HashMap<String,Integer> sc =new HashMap<>();
+         sc.put("pink", 7);
+         sc.put("red", 3);
+         sc.put("green", 5);
+         sc.remove("red");
+         System.out.println(sc);
+     }
+}
+o/p
+{pink=7, green=5,}
+
+
+TreeMap
+
+syntax:> TreeMap<String,Integer> obj=new TreeMap<>();
+ It Doesn't allow a null key, but it has multiple values.
+add(),remove(),contains(). 
+
+import java.util.*;
+public class Main{
+     public static void main(String[]args)
+     {
+
+ TreeMap<String,Integer> sc=new TreeMap<>();
+        sc.put("pink",45);
+        sc.put("yellow",89);
+        sc.put("red",56);
+      //  sc.remove("pink");
+        System.out.println(sc);
+    }
+}
+
+o/p
+{pink=45, red=56, yellow=89}
+
+
+
+
+
