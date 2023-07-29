@@ -6,10 +6,11 @@
     <title>Booking Details</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
     <div class="admin">
-    <button type="button" class="button"><span class="text">>> &nbsp  </span><a href="fetch.php">ADMIN</a></button>
+    <button type="button" class="button"><span class="text">>> &nbsp;  </span><a href="fetch.php">ADMIN</a> <a href="mailto:client@example.com"></a></button>
     </div>
     <div class="container">
       <h1 class="form-title">Booking Details</h1>
@@ -62,7 +63,7 @@
           </div>
         </div>
         <div class="btn">
-        <button type="submit" class="bookbtn">register</button>
+        <input type="submit" class="bookbtn" value="submit" name="send">
         </div>
       </form>
     </div>

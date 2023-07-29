@@ -1,7 +1,7 @@
 <?php
 
     include"connection.php";
-    
+    if(isset($_POST['submit'])){
 $firstName = $_POST["firstName"];
 $dateadd = $_POST["dateadd"];
 $email = $_POST["email"];
@@ -16,15 +16,24 @@ $query=mysqli_query($conn,$sql);
 
 
 if($query){
-    $return['status'] = 'success';
-    $return['message'] = 'Data inserted successfully';
-    header('location:index.php');
+    ?>
+
+    <script>
+    swal({
+        title: "Good job!",
+        text: "You clicked the button!",
+        icon: "success",
+      });
+      </script>
+      <?php
+
 }
 else {
    
     $return['status'] = 'error';
     $return['message'] = 'Data insertion failed';
 }
+    }
 ?>
 
 
